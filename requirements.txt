@@ -1,0 +1,15 @@
+pandas
+numpy
+requests
+aiohttp
+scikit-learn
+xgboost
+flask
+streamlit
+plotly
+matplotlib
+seaborn
+psycopg2-binary
+sqlalchemy
+requests
+scikit-learn
