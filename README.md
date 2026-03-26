@@ -129,7 +129,3 @@ Crie um ambiente virtual e instale dependências:
 Execute o dashboard Streamlit:
     streamlit run app.py
     Acesse no navegador em http://localhost:8501.
-
-## Desenvolvi um dashboard interativo de análise e previsão de indicadores educacionais do Brasil, utilizando Python, Pandas, Scikit-learn, PostgreSQL e Streamlit.
-## 🚀 O projeto realiza previsão de indicadores por região e permite análise dinâmica com filtros por ano e tipo de dado.
-## 💡 Ideal para demonstrar ETL, Machine Learning e Data Visualization em portfólio.
