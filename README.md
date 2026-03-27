@@ -2,7 +2,7 @@
 
 Descrição
 
-Este projeto consiste em um dashboard interativo para análise e previsão de indicadores educacionais no Brasil. Ele integra dados históricos e realiza previsões de indicadores por região, permitindo ao usuário explorar tendências e comparar valores reais e previstos. O foco do projeto é demonstrar habilidades em ETL, aprendizado de máquina, análise de dados, modelagem preditiva e visualização interativa. 
+    Este projeto consiste em um dashboard interativo para análise e previsão de indicadores educacionais no Brasil. Ele integra dados históricos e realiza previsões de indicadores por região, permitindo ao usuário explorar tendências e comparar valores reais e previstos. O foco do projeto é demonstrar habilidades em ETL, aprendizado de máquina, análise de dados, modelagem preditiva e visualização interativa. 
 
 Funcionalidades
 
@@ -48,6 +48,7 @@ educacao-analytics-br/
 └─ requirements.txt       <- dependências do projeto
 
 Skills Demonstradas
+
     I. Extração, transformação e carregamento (ETL) de dados.
 
     II. Conexão e consulta a bancos relacionais (PostgreSQL).
@@ -64,10 +65,10 @@ Perguntas de Entrevista e Respostas
 
 1️⃣ Sobre dados e ETL
 
-Pergunta: Como você lidaria com dados faltantes ou inconsistentes no banco?
-Resposta: Eu aplicaria tratamento de dados, como preencher valores faltantes com médias, medianas ou interpolação, e remover duplicatas ou valores inválidos antes de qualquer análise.
-Pergunta: Por que você implementou fallback para CSV no projeto?
-Resposta: Para garantir que o dashboard funcione mesmo sem conexão com o banco de dados, aumentando a robustez do projeto e permitindo deploy mais seguro.
+    Pergunta: Como você lidaria com dados faltantes ou inconsistentes no banco?
+    Resposta: Eu aplicaria tratamento de dados, como preencher valores faltantes com médias, medianas ou interpolação, e remover duplicatas ou valores inválidos antes de qualquer análise.
+    Pergunta: Por que você implementou fallback para CSV no projeto?
+    Resposta: Para garantir que o dashboard funcione mesmo sem conexão com o banco de dados, aumentando a robustez do projeto e permitindo deploy mais seguro.
 
 2️⃣ Sobre Machine Learning
 
@@ -79,9 +80,9 @@ Resposta: Para garantir que o dashboard funcione mesmo sem conexão com o banco 
 
     Resposta: Eu compararia os valores previstos com dados reais históricos usando métricas como RMSE (Root Mean Squared Error) e R², ajustando o modelo se necessário.
 
-Pergunta: Como lidaria com regiões com poucos dados históricos?
+    Pergunta: Como lidaria com regiões com poucos dados históricos?
 
-Resposta: Poderia usar médias móveis, extrapolação simples ou agrupar regiões similares para aumentar a base de dados e gerar previsões mais confiáveis.
+    Resposta: Poderia usar médias móveis, extrapolação simples ou agrupar regiões similares para aumentar a base de dados e gerar previsões mais confiáveis.
 
 3️⃣ Sobre Streamlit e Dashboard
 
@@ -120,12 +121,14 @@ Como Rodar o Projeto
         git clone https://github.com/SEU-USUARIO/educacao-analytics-br.git
         cd educacao-analytics-br
 
-Crie um ambiente virtual e instale dependências:
-    python -m venv venv
-    source venv/bin/activate  # Linux/Mac
-    venv\Scripts\activate     # Windows
-    pip install -r requirements.txt
+    Crie um ambiente virtual e instale dependências:
+        
+        python -m venv venv
+        source venv/bin/activate  # Linux/Mac
+        venv\Scripts\activate     # Windows
+        pip install -r requirements.txt
 
-Execute o dashboard Streamlit:
-    streamlit run app.py
-    Acesse no navegador em http://localhost:8501.
+    Execute o dashboard Streamlit:
+    
+        streamlit run app.py
+        Acesse no navegador em http://localhost:8501.
