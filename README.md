@@ -2,7 +2,7 @@
 
 Descrição
 
-    Este projeto consiste em um dashboard interativo para análise e previsão de indicadores educacionais no Brasil. Ele integra dados históricos e realiza previsões de indicadores por região, permitindo ao usuário explorar tendências e comparar valores reais e previstos. O foco do projeto é demonstrar habilidades em ETL, aprendizado de máquina, análise de dados, modelagem preditiva e visualização interativa. 
+Este projeto consiste em um dashboard interativo para análise e previsão de indicadores educacionais no Brasil. Ele integra dados históricos e realiza previsões de indicadores por região, permitindo ao usuário explorar tendências e comparar valores reais e previstos. O foco do projeto é demonstrar habilidades em ETL, aprendizado de máquina, análise de dados, modelagem preditiva e visualização interativa. 
 
 Funcionalidades
 
