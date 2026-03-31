@@ -10,8 +10,7 @@ def treinar_modelo(df):
         df_regiao = df[df["regiao"] == regiao].sort_values("ano")
 
         if len(df_regiao) < 2:
-            continue  # evita erro com poucos dados
-
+            continue
         X = df_regiao[["ano"]]
         y = df_regiao["indicador"]
 
